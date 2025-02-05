@@ -25,7 +25,7 @@ Reporting:Use of GenAI for drafting analysis reports in pdf files.
 - xgboost
 - Tensorflow/keras (for neural networks)
 - GenAI (installed via Ollama or another package depending on setup)
-- DeepSeek (for model deployment)
+- DeepSeek deepseek-r1:1.5b(for model deployment)
 - Flask or FastAPI (for serving model predictions via APIs)
 
 ## DeepSeek Deployment Guide for macOS (Apple Silicon/M1/M2)
@@ -40,7 +40,7 @@ A step-by-step guide to deploying DeepSeek large language models on Apple Silico
 
 #### 🚀 Quick Start
 
-#### 1. Install Ollama (Optimized for Apple Silicon)
+#### Install Ollama (Optimized for Apple Silicon)
 
 #### Install Homebrew if not already installed
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -51,7 +51,8 @@ brew install ollama
 #### Start Ollama service
 ollama serve
 
-
+#### Start Ollama service
+ollama run deepseek-r1:1.5b
 
 ## Data Source
 
